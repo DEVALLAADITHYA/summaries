@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Document Summary Assistant</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="container">
+      <div class="brand">Document Summary Assistant</div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section class="card upload-card">
+      <h2>Upload a document</h2>
+      <p class="muted">Accepts PDF and images (PNG, JPG, TIFF). Max 20 MB.</p>
+
+      <div id="drop-area" class="drop-area">
+        <p id="drop-text">Drag & drop a file here or</p>
+        <input type="file" id="fileElem" accept=".pdf,image/*" />
+        <button id="filePicker" class="btn">Choose File</button>
+      </div>
+
+      <div class="controls">
+        <label for="length">Summary length</label>
+        <select id="length">
+          <option value="short">Short</option>
+          <option value="medium" selected>Medium</option>
+          <option value="long">Long</option>
+        </select>
+        <button id="uploadBtn" class="btn primary">Upload & Summarize</button>
+      </div>
+
+      <div id="status" class="status"></div>
+    </section>
+
+    <section class="card result-card" id="resultSection" style="display:none;">
+      <div class="result-header">
+        <h2>Summary</h2>
+        <div class="actions">
+          <button id="copyBtn" class="btn">Copy</button>
+          <button id="downloadBtn" class="btn">Download TXT</button>
+        </div>
+      </div>
+
+      <div id="summary" class="summary"></div>
+
+      <div id="keypoints" class="keypoints"></div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">Built with care • Simple documentation inside README.</div>
+  </footer>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

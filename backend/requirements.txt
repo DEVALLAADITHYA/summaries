@@ -1,0 +1,7 @@
+flask
+python-dotenv
+requests
+pytesseract
+pdfminer.six
+werkzeug
+gunicorn
