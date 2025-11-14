@@ -116,6 +116,10 @@ Render will:
 
 ---
 
+
+
+
+
 ## *Project Structure*
 
 
@@ -135,13 +139,23 @@ backend/
 
 ---
 
+
+
+
+
+
 ## *Live Demo*
 
 💻 Try the working deployed app here:
 👉 **[https://document-summaries.onrender.com/](https://document-summaries.onrender.com/)**
 
 
+
+
+
 <img width="1896" height="913" alt="image" src="https://github.com/user-attachments/assets/bb059491-31d1-4d11-b81e-2d99f4da1edd" />
+
+
 
 
 
