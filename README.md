@@ -26,3 +26,6 @@ Notes:
 - The ai_service uses a placeholder endpoint compatible with OpenAI Chat Completions. Replace endpoint/model per your Gemini details.
 - .env.example is provided in backend/.env.example
 - The app removes uploaded files after processing.
+
+<img width="1896" height="913" alt="image" src="https://github.com/user-attachments/assets/21faa538-7178-4507-9427-d315dcbd74b0" />
+
